@@ -11,6 +11,13 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <h1>Login Page</h1>
+        <form action="DispatcherController" method="POST">
+            Email <input type="text" name="txtEmail" value="" /></br>
+            Password <input type="password" name="txtPassword" value="" /></br>
+            <input type="submit" value="Login" name="btAction"/>
+            <input type="reset" value="Reset" />
+        </form>
+        <a href="createAccount.jsp">Click here to Sign Up</a>
     </body>
 </html>
