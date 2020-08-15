@@ -1,0 +1,7 @@
+FATAL   2020-06-02 22:15:40,158 [http-nio-8084-exec-1790] trangcq.controller.SubmitQuizServlet  - The value is not set for the parameter number 2.
+FATAL   2020-06-02 22:16:19,966 [http-nio-8084-exec-1798] trangcq.controller.SubmitQuizServlet  - The value is not set for the parameter number 2.
+FATAL   2020-06-02 22:19:12,925 [http-nio-8084-exec-1804] trangcq.controller.SubmitQuizServlet  - The value is not set for the parameter number 2.
+FATAL   2020-06-02 22:22:16,622 [http-nio-8084-exec-1810] trangcq.controller.SubmitQuizServlet  - The value is not set for the parameter number 2.
+FATAL   2020-06-02 22:23:01,620 [http-nio-8084-exec-1820] trangcq.controller.SubmitQuizServlet  - The value is not set for the parameter number 2.
+FATAL   2020-06-02 22:23:37,405 [http-nio-8084-exec-1830] trangcq.controller.SubmitQuizServlet  - The value is not set for the parameter number 2.
+FATAL   2020-06-02 22:24:59,519 [http-nio-8084-exec-1833] trangcq.controller.SubmitQuizServlet  - The value is not set for the parameter number 2.
