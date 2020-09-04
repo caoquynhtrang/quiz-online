@@ -61,8 +61,10 @@ public class LoginServlet extends HttpServlet {
             }
 
         } catch (SQLException ex) {
+            ex.printStackTrace();
             LOGGER.fatal(ex.getMessage());
         } catch (NamingException ex) {
+            ex.printStackTrace();
             LOGGER.fatal(ex.getMessage());
         } finally {
             response.sendRedirect(url);

@@ -13,11 +13,15 @@
         <title>Submit Quiz Page</title>
     </head>
     <body>
-        <h1>Submit Success!!</h1>
-        
-        <h3>My Quiz: ${requestScope.CORRECT} / ${requestScope.TOTAL}</h3>
-        <h2>Score: ${requestScope.MARK} </h2>
-        
+        <jsp:include page="./header.jsp"/>
+        <div class="card container mt-4 p-3" style="width: 550px">
+            <h1 class="text-success">Submit Success!!</h1>
+
+            <h3>My Quiz: ${requestScope.CORRECT} / ${requestScope.TOTAL}</h3>
+            <h2>Score: ${requestScope.MARK} </h2>
+        </div>
+
+
 
 
     </body>

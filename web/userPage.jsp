@@ -13,23 +13,22 @@
         <title>User Page</title>
     </head>
     <body>
-        <font color="red"> Welcome, ${sessionScope.USER.fullname}</font>
-        <c:url var="logout" value="DispatcherController" >
-            <c:param name="btAction" value="Logout"></c:param>
-        </c:url>
-        <a href="${logout}">Logout</a> 
-        <h1>Take a Quiz</h1>
-        <form action="DispatcherController" method="POST">
-            Choose Subject: <select name="subjectId">
-                <c:forEach var="subject" items="${requestScope.SUBJECT}">
-                    <option value="${subject.id}">
-                        ${subject.name}
-                    </option>
-                </c:forEach>
+        <jsp:include page="./header.jsp"/>
+        <div class="card container p-3 mt-4" style="width: 550px">
+            <h1>Take a Quiz</h1>
+            <form action="DispatcherController" method="POST">
+                Choose Subject: <select name="subjectId">
+                    <c:forEach var="subject" items="${requestScope.SUBJECT}">
+                        <option value="${subject.id}">
+                            ${subject.name}
+                        </option>
+                    </c:forEach>
 
-            </select> </br>
-            <input type="submit" value="ATTEMPT QUIZ NOW" name="btAction"/>
-        </form>
-        
+                </select> </br>
+                <input class="btn btn-primary mt-3" type="submit" value="ATTEMPT QUIZ NOW" name="btAction"/>
+            </form>
+        </div>
+
+
     </body>
 </html>
